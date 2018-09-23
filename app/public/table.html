@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous"></link>
+    <!--JQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>BootcampBooster</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron" style=color:white>
+            <h1 class="text-center" style=color:red>BootcampBooster</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card card-default" style="position: relative; left: 300px; width: 500px;">
+                    <div class="card-heading">
+                        <h4 class="card-title" style="color:red;text-align:center;">Update Information</h4>
+                    </div>
+                    <div class="card-body">
+
+                        <!-- Form to input database information -->
+
+                        <form role="form">
+
+                            <div class="form-group row">
+                                <label for="week">Week Number</label>
+                                <input class="form-control" id="updated-week" type="text">
+                            </div>
+                            <div class="form-group row">
+                                <label for="activity">Activity Number</label>
+                                <input class="form-control" id="updated-activity" type="text">
+                            </div>
+                            <div class="form-group row">
+                                <label for="link">GitLab Link</label>
+                                <input class="form-control" id="updated-link" type="text">
+                            </div>
+                            <div class="form-group row">
+                                <label for="skill">Skill Reference</label>
+                                <input class="form-control" id="updated-skill" type="text">
+                            </div>
+                            <button class="btn btn-primary" id="update-information" type="submit">Update</button>
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <script src="js/table.js"></script>
+</body>
+
+</html>
